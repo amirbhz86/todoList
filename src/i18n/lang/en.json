@@ -1,0 +1,115 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "new": "New",
+    "tryAgain": "Try again",
+    "all": "All",
+    "settings": "Settings",
+    "back": "Back"
+  },
+  "app": {
+    "name": "Task",
+    "nameAccent": "Flow"
+  },
+  "tabs": {
+    "tasks": "Tasks",
+    "board": "Board",
+    "stats": "Stats"
+  },
+  "board": {
+    "title": "Board",
+    "titleAccent": " View",
+    "emptyColumn": "No tasks"
+  },
+  "stats": {
+    "title": "Over",
+    "titleAccent": "view",
+    "total": "Total",
+    "done": "Done",
+    "inProgress": "In Progress",
+    "highPriority": "High Priority",
+    "byStatus": "By status",
+    "byPriority": "By priority"
+  },
+  "state": {
+    "loadingTasks": "Loading tasks…",
+    "somethingWentWrong": "Something went wrong",
+    "noTasksYet": "No tasks yet",
+    "noTasksYetMessage": "Create your first task to get started.",
+    "noMatchingTasks": "No matching tasks",
+    "noMatchingTasksMessage": "Adjust the filters or create a new task."
+  },
+  "tasks": {
+    "title": "Tasks",
+    "subtitle": "Offline-first · Tap a status badge to update it · Stored in SQLite",
+    "syncing": "Syncing…",
+    "pendingSync": "{{count}} pending",
+    "searchPlaceholder": "Search by title or description…",
+    "filterSheetTitle": "Filter Tasks",
+    "applyFilters": "Apply Filters",
+    "clearAllFilters": "Clear All",
+    "filterStatus": "Status",
+    "filterPriority": "Priority",
+    "newTask": "New task",
+    "editTask": "Edit task",
+    "createTask": "Create task",
+    "saveChanges": "Save changes",
+    "deleteTask": "Delete task",
+    "deleteConfirmTitle": "Delete task",
+    "deleteConfirmMessage": "This action cannot be undone.",
+    "fieldTitle": "Title",
+    "titlePlaceholder": "What needs to be done?",
+    "descriptionPlaceholder": "Add details…",
+    "markAsDone": "Mark as done",
+    "moveBackToTodo": "Move back to To Do",
+    "fieldDescriptionOptional": "Description (optional)",
+    "fieldStatus": "Status",
+    "fieldPriority": "Priority",
+    "dragToReorder": "Long-press the handle, then drag to reorder"
+  },
+  "taskStatus": {
+    "todo": "To do",
+    "in_progress": "In progress",
+    "done": "Done",
+    "active": "Active"
+  },
+  "taskPriority": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "short": {
+      "low": "LOW",
+      "medium": "MED",
+      "high": "HIGH"
+    },
+    "any": "Any priority"
+  },
+  "validation": {
+    "titleRequired": "Title is required",
+    "titleMaxLength": "Title must be 120 characters or fewer",
+    "descriptionMaxLength": "Description must be 500 characters or fewer"
+  },
+  "errors": {
+    "loadTasks": "Failed to load tasks",
+    "createTask": "Failed to create task",
+    "updateTask": "Failed to update task",
+    "deleteTask": "Failed to delete task",
+    "syncFailed": "Sync failed",
+    "syncPartial": "{{count}} change(s) could not sync. They will be retried.",
+    "reorderTasks": "Failed to save task order"
+  },
+  "date": {
+    "invalid": "Invalid date",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "daysAgo": "{{count}} days ago"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageFa": "Persian",
+    "languageEn": "English",
+    "currentLanguage": "Active language: {{code}}"
+  }
+}

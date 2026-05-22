@@ -1,0 +1,115 @@
+{
+  "common": {
+    "cancel": "لغو",
+    "delete": "حذف",
+    "new": "جدید",
+    "tryAgain": "تلاش دوباره",
+    "all": "همه",
+    "settings": "تنظیمات",
+    "back": "بازگشت"
+  },
+  "app": {
+    "name": "Task",
+    "nameAccent": "Flow"
+  },
+  "tabs": {
+    "tasks": "وظایف",
+    "board": "برد",
+    "stats": "آمار"
+  },
+  "board": {
+    "title": "نمای",
+    "titleAccent": " برد",
+    "emptyColumn": "وظیفه‌ای نیست"
+  },
+  "stats": {
+    "title": "نمای",
+    "titleAccent": " کلی",
+    "total": "کل",
+    "done": "انجام‌شده",
+    "inProgress": "در حال انجام",
+    "highPriority": "اولویت بالا",
+    "byStatus": "بر اساس وضعیت",
+    "byPriority": "بر اساس اولویت"
+  },
+  "state": {
+    "loadingTasks": "در حال بارگذاری وظایف…",
+    "somethingWentWrong": "مشکلی پیش آمد",
+    "noTasksYet": "هنوز وظیفه‌ای نیست",
+    "noTasksYetMessage": "اولین وظیفه خود را بسازید.",
+    "noMatchingTasks": "وظیفه‌ای یافت نشد",
+    "noMatchingTasksMessage": "فیلترها را تغییر دهید یا وظیفه جدید بسازید."
+  },
+  "tasks": {
+    "title": "وظایف",
+    "subtitle": "آفلاین · برای تغییر وضعیت روی نشانگر بزنید · ذخیره در SQLite",
+    "syncing": "در حال همگام‌سازی…",
+    "pendingSync": "{{count}} در انتظار",
+    "searchPlaceholder": "جستجو در عنوان یا توضیحات…",
+    "filterSheetTitle": "فیلتر وظایف",
+    "applyFilters": "اعمال فیلتر",
+    "clearAllFilters": "پاک کردن همه",
+    "filterStatus": "وضعیت",
+    "filterPriority": "اولویت",
+    "newTask": "وظیفه جدید",
+    "editTask": "ویرایش وظیفه",
+    "createTask": "ایجاد وظیفه",
+    "saveChanges": "ذخیره تغییرات",
+    "deleteTask": "حذف وظیفه",
+    "deleteConfirmTitle": "حذف وظیفه",
+    "deleteConfirmMessage": "این عمل قابل بازگشت نیست.",
+    "fieldTitle": "عنوان",
+    "titlePlaceholder": "چه کاری باید انجام شود؟",
+    "descriptionPlaceholder": "جزئیات را اضافه کنید…",
+    "markAsDone": "علامت‌گذاری به‌عنوان انجام‌شده",
+    "moveBackToTodo": "بازگشت به انجام‌نشده",
+    "fieldDescriptionOptional": "توضیحات (اختیاری)",
+    "fieldStatus": "وضعیت",
+    "fieldPriority": "اولویت",
+    "dragToReorder": "دسته را نگه دارید و بکشید تا ترتیب را عوض کنید"
+  },
+  "taskStatus": {
+    "todo": "انجام نشده",
+    "in_progress": "در حال انجام",
+    "done": "انجام شده",
+    "active": "فعال"
+  },
+  "taskPriority": {
+    "low": "کم",
+    "medium": "متوسط",
+    "high": "زیاد",
+    "short": {
+      "low": "کم",
+      "medium": "متوسط",
+      "high": "زیاد"
+    },
+    "any": "هر اولویتی"
+  },
+  "validation": {
+    "titleRequired": "عنوان الزامی است",
+    "titleMaxLength": "عنوان باید حداکثر ۱۲۰ کاراکتر باشد",
+    "descriptionMaxLength": "توضیحات باید حداکثر ۵۰۰ کاراکتر باشد"
+  },
+  "errors": {
+    "loadTasks": "بارگذاری وظایف ناموفق بود",
+    "createTask": "ایجاد وظیفه ناموفق بود",
+    "updateTask": "به‌روزرسانی وظیفه ناموفق بود",
+    "deleteTask": "حذف وظیفه ناموفق بود",
+    "syncFailed": "همگام‌سازی ناموفق بود",
+    "syncPartial": "{{count}} تغییر همگام نشد. دوباره تلاش می‌شود.",
+    "reorderTasks": "ذخیره ترتیب وظایف ناموفق بود"
+  },
+  "date": {
+    "invalid": "تاریخ نامعتبر",
+    "today": "امروز",
+    "yesterday": "دیروز",
+    "daysAgo": "{{count}} روز پیش"
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "language": "زبان",
+    "languageFa": "فارسی",
+    "languageEn": "انگلیسی",
+    "currentLanguage": "زبان فعال: {{code}}"
+  }
+}

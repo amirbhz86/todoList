@@ -1,0 +1,30 @@
+diff --git a/node_modules/expo/src/async-require/hmr.ts b/node_modules/expo/src/async-require/hmr.ts
+index 33ce50e..d849520 100644
+--- a/node_modules/expo/src/async-require/hmr.ts
++++ b/node_modules/expo/src/async-require/hmr.ts
+@@ -162,7 +162,8 @@ const HMRClient: HMRClientNativeInterface = {
+     hmrClient = client;
+ 
+     const fullBundleUrl = (() => {
+-      const currentScript = document?.currentScript;
++      const currentScript =
++        typeof document !== 'undefined' ? document?.currentScript : undefined;
+       const bundleUrl = new URL(
+         currentScript && 'src' in currentScript ? currentScript.src : location.href,
+         location.href
+diff --git a/node_modules/expo/src/async-require/setup.ts b/node_modules/expo/src/async-require/setup.ts
+index e530acf..223896d 100644
+--- a/node_modules/expo/src/async-require/setup.ts
++++ b/node_modules/expo/src/async-require/setup.ts
+@@ -1,8 +1,9 @@
+ // Only during development.
+ if (
+   __DEV__ &&
+-  // Disable for SSR
+-  typeof window !== 'undefined'
++  // Disable for SSR and native (Hermes has no document global)
++  typeof window !== 'undefined' &&
++  typeof document !== 'undefined'
+ ) {
+   require('./setupFastRefresh');
+   require('./setupHMR');
