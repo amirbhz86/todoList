@@ -15,7 +15,7 @@ function reduce(state: TasksState | undefined, action: Parameters<typeof tasksRe
 const initial = (): TasksState => ({
   items: [],
   filters: DEFAULT_TASK_FILTERS,
-  loading: false,
+  loading: true,
   syncing: false,
   error: null,
   pendingSyncCount: 0,

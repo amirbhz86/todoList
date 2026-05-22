@@ -17,7 +17,7 @@ export type TasksState = {
 const initialState: TasksState = {
   items: [],
   filters: DEFAULT_TASK_FILTERS,
-  loading: false,
+  loading: true,
   syncing: false,
   error: null,
   pendingSyncCount: 0,
